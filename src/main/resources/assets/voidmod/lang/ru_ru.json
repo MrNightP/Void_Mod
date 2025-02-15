@@ -1,0 +1,40 @@
+{
+  "item.voidmod.voidshard": "Осколок пустоты",
+  "item.voidmod.raw_voidshard": "Необработанный осколок пустоты",
+
+  "block.voidmod.void_shards_block": "Блок из осколков пустоты",
+  "block.voidmod.raw_void_shards_block": "Блок необработанных пустотных осколков",
+  "block.voidmod.void_shard_ore_stone": "Руда пустотных осколков",
+
+  "message.found": "Найдено",
+  "message.at": "на",
+  "message.valuable_blocks": "ценных блоков",
+  "message.no_valuable_ores": "Ценные руды не найдены.",
+  "message.cooldown": "Перезарядка: ",
+  "message.sec": " сек",
+  "message.cooldown_end": "Перезарядка завершена.",
+  "message.cooldown_end1": "Перезарядка ",
+  "message.cooldown_end2": "завершена!",
+  "message.skill_activated": "Усиление дракона активировано!",
+
+  "item.voidmod.mre": "ИРП",
+  "item.voidmod.empty_mre_can": "Пустая банка ИРП",
+
+  "item.voidmod.void_fuel": "Пустотное топливо",
+  "block.voidmod.void_fuel_block": "Блок пустотного топлива",
+
+  "tooltip.voidmod.metal_detector.tooltip": "Устройство для нахождения руд",
+
+  "item.voidmod.dragon_scythe": "Коса Дракона",
+
+  "item.voidmod.dragon_armor_helmet": "Шлем Брони Дракона",
+  "item.voidmod.dragon_armor_chestplate": "Нагрудник Брони Дракона",
+  "item.voidmod.dragon_armor_leggings": "Поножи Брони Дракона",
+  "item.voidmod.dragon_armor_boots": "Ботинки Брони Дракона",
+
+  "key.category.voidmod.voidmod": "Void Mod Keys",
+  "key.category.armor_effect": "Усиление Дракона",
+  "key.category.armor_dash": "Рывок Дракона",
+
+  "creativetab.voidmod.void_tab": "Void Mod"
+}

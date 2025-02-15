@@ -1,0 +1,50 @@
+{
+  "item.voidmod.voidshard": "Void shard",
+  "item.voidmod.raw_voidshard": "Raw void shard",
+
+  "block.voidmod.void_shards_block": "Block of Void shards",
+  "block.voidmod.raw_void_shards_block": "Block of Raw Void shards",
+  "block.voidmod.void_shard_ore_stone": "Void Shard Ore",
+
+  "item.voidmod.metal_detector": "Metal Detector",
+
+  "message.found": "Found",
+  "message.at": "at",
+  "message.valuable_blocks": "valuable blocks",
+  "message.no_valuable_ores": "No valuable ores found.",
+  "message.cooldown": "Cooldown: ",
+  "message.sec": " sec",
+  "message.cooldown_end": "Cooldown end.",
+  "message.cooldown_end1": "Cooldown ",
+  "message.cooldown_end2": "end!",
+  "message.skill_activated": "Dragon boost activated!",
+
+  "block.voidmod.sound_test_block": "Sound Test",
+
+  "item.voidmod.mre": "MRE",
+  "item.voidmod.empty_mre_can": "Empty MRE can",
+
+  "item.voidmod.void_fuel": "Void Fuel",
+  "block.voidmod.void_fuel_block": "Void Fuel Block",
+
+  "tooltip.voidmod.metal_detector.tooltip": "Device to searching ores",
+
+  "item.voidmod.dragon_scythe": "Dragon Scythe",
+
+  "item.voidmod.dragon_sword": "Dragon Sword",
+  "item.voidmod.dragon_pickaxe": "Dragon Pickaxe",
+  "item.voidmod.dragon_axe": "Dragon Armor Axe",
+  "item.voidmod.dragon_shovel": "Dragon Shovel",
+  "item.voidmod.dragon_hoe": "Dragon Hoe",
+
+  "item.voidmod.dragon_armor_helmet": "Dragon Armor Helmet",
+  "item.voidmod.dragon_armor_chestplate": "Dragon Armor Chestplate",
+  "item.voidmod.dragon_armor_leggings": "Dragon Armor Leggings",
+  "item.voidmod.dragon_armor_boots": "Dragon Armor Boots",
+
+  "key.category.voidmod.voidmod": "Void Mod Keys",
+  "key.category.armor_effect": "Dragon Boost",
+  "key.category.armor_dash": "Dragon Dash",
+
+  "creativetab.voidmod.void_tab": "Void Mod"
+}
