@@ -1,0 +1,7 @@
+// 1.20.1	2025-02-16T00:42:16.9706459	Loot Tables
+2a52df1f243e11350aa5f2b671810f59c9c27602 data/voidmod/loot_tables/blocks/end_gem_ore_end_stone.json
+15d261d0c206e048987c3c57aa32ac5200902efc data/voidmod/loot_tables/blocks/raw_void_shards_block.json
+921eca2c9541b97ba957688c65da104827a8d695 data/voidmod/loot_tables/blocks/sound_test_block.json
+0ac3c33e0c064082bdf3e1b095300ac020881788 data/voidmod/loot_tables/blocks/void_fuel_block.json
+9767edc6a6c1975d93c6b4dd740e21a918769d93 data/voidmod/loot_tables/blocks/void_shards_block.json
+f180b9dcc62bfc78504405c63b7f94b7eae899cb data/voidmod/loot_tables/blocks/void_shard_ore_stone.json

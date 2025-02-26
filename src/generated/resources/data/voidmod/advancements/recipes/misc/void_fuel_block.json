@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "voidmod:void_fuel_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_void_fuel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "voidmod:void_fuel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_void_fuel",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "voidmod:void_fuel_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

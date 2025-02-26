@@ -1,0 +1,6 @@
+// 1.20.1	2025-02-16T00:42:16.9746463	Tags for minecraft:block mod id voidmod
+47c4b8a425534f7b166b14e859ea45725c8eb7f7 data/forge/tags/blocks/needs_netherite_tool.json
+c8dd8f3cf88670774d434f004d61120d67f90d2d data/minecraft/tags/blocks/mineable/pickaxe.json
+0fb53e014afca94ddf3f1e3babb764f881e2d49a data/minecraft/tags/blocks/needs_diamond_tool.json
+a68ec6e5cc71da6cd64d6c73131d7a3f58ecc8bf data/minecraft/tags/blocks/needs_iron_tool.json
+79a7addbc209d5c916a119ad6fba79530cba31e7 data/minecraft/tags/blocks/voidmod.json

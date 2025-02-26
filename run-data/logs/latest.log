@@ -1,0 +1,34 @@
+[26февр.2025 09:49:08.482] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\homew\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.3.27, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, voidmod, --all, --output, D:\Шевченко\D\Папка\YouTube\Test Mod Forge\src\generated\resources, --existing, D:\Шевченко\D\Папка\YouTube\Test Mod Forge\src\main\resources]
+[26февр.2025 09:49:08.495] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[26февр.2025 09:49:08.749] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[26февр.2025 09:49:08.848] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/homew/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[26февр.2025 09:49:09.349] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\homew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.27\8001575a8be1ded39093805ca80ef976b5149b3f\javafmllanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[26февр.2025 09:49:09.357] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\homew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.27\17ff592420fbc1f933420f0a473783943ac176ce\lowcodelanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[26февр.2025 09:49:09.365] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\homew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.27\48269e2cdbd3c44641fb99a6b05f205b63efa37b\mclanguage-1.20.1-47.3.27.jar is missing mods.toml file
+[26февр.2025 09:49:09.372] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\homew\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.27\8e7f3f29ab42d8116b9ee3f9f06fc8e8fa0fd12f\fmlcore-1.20.1-47.3.27.jar is missing mods.toml file
+[26февр.2025 09:49:09.659] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[26февр.2025 09:49:12.143] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[26февр.2025 09:49:12.148] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\homew\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, voidmod, --all, --output, D:\Шевченко\D\Папка\YouTube\Test Mod Forge\src\generated\resources, --existing, D:\Шевченко\D\Папка\YouTube\Test Mod Forge\src\main\resources]
+[26февр.2025 09:49:12.678] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Шевченко\D\Папка\YouTube\Test Mod Forge\build\createSrgToMcp\output.srg
+[26февр.2025 09:49:13.312] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [voidmod]
+[26февр.2025 09:49:20.346] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.27, for MC 1.20.1 with MCP 20230612.114412
+[26февр.2025 09:49:20.356] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.27 Initialized
+[26февр.2025 09:49:20.449] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[26февр.2025 09:49:21.428] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/homew/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.27_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[26февр.2025 09:49:21.429] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/homew/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.27_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.3.27_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[26февр.2025 09:49:21.690] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[26февр.2025 09:49:21.747] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 55 ms
+[26февр.2025 09:49:21.747] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[26февр.2025 09:49:21.805] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 58 ms
+[26февр.2025 09:49:21.806] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: voidmod
+[26февр.2025 09:49:22.002] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: voidmod finished after 195 ms
+[26февр.2025 09:49:22.002] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: voidmod
+[26февр.2025 09:49:22.027] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: voidmod finished after 24 ms
+[26февр.2025 09:49:22.027] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id voidmod
+[26февр.2025 09:49:22.044] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id voidmod finished after 16 ms
+[26февр.2025 09:49:22.045] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id voidmod
+[26февр.2025 09:49:22.046] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id voidmod finished after 1 ms
+[26февр.2025 09:49:22.046] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : voidmod
+[26февр.2025 09:49:22.053] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : voidmod finished after 6 ms
+[26февр.2025 09:49:22.053] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 362 ms
+[26февр.2025 09:49:22.077] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 73, old count: 72, new count: 74, removed stale: 0, written: 1

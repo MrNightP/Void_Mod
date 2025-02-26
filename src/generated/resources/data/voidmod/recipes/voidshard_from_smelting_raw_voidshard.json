@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "void_shard",
+  "ingredient": {
+    "item": "voidmod:raw_voidshard"
+  },
+  "result": "voidmod:voidshard"
+}

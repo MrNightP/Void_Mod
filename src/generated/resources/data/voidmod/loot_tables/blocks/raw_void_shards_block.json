@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "voidmod:raw_void_shards_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "voidmod:blocks/raw_void_shards_block"
+}

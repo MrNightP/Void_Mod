@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "C": {
+      "item": "minecraft:golden_carrot"
+    },
+    "M": {
+      "item": "voidmod:empty_mre_can"
+    },
+    "P": {
+      "item": "minecraft:cooked_porkchop"
+    }
+  },
+  "pattern": [
+    " P ",
+    "CMA",
+    " B "
+  ],
+  "result": {
+    "item": "voidmod:mre"
+  },
+  "show_notification": true
+}

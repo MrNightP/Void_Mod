@@ -1,0 +1,12 @@
+{
+  "type": "voidmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/ender_dragon"
+    }
+  ],
+  "item": "voidmod:dragon_scale",
+  "maxCount": 16,
+  "minCount": 4
+}

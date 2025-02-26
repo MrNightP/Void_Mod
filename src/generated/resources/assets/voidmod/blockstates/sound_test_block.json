@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "voidmod:block/sound_test_block"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_voidshard": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "voidmod:raw_voidshard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "voidmod:voidshard_from_smelting_raw_voidshard"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_voidshard",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "voidmod:voidshard_from_smelting_raw_voidshard"
+    ]
+  },
+  "sends_telemetry_event": false
+}

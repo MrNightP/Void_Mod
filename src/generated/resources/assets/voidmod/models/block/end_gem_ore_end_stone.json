@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "voidmod:block/end_gem_ore_end_stone"
+  }
+}

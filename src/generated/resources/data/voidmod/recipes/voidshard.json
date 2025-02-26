@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "voidmod:void_shards_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "voidmod:voidshard"
+  }
+}
