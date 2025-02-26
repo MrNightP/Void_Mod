@@ -19,11 +19,17 @@ public class CreativeModTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.VoidShard.get());
                         output.accept(ModItems.Raw_VoidShard.get());
+                        output.accept(ModItems.EndGem.get());
+                        output.accept(ModItems.RawEndGem.get());
+                        output.accept(ModItems.DragonSteelAlloy.get());
+                        output.accept(ModItems.DragonScale.get());
+                        output.accept(ModItems.MoonShineAlloy.get());
 
                         output.accept(ModBlocks.VoidShardsBlock.get());
                         output.accept(ModBlocks.RawVoidShardsBlock.get());
                         //Ores
                         output.accept(ModBlocks.VoidShardOreStone.get());
+                        output.accept(ModBlocks.EndGemOre.get());
 
                         output.accept(ModItems.MetalDetector.get());
 
@@ -31,6 +37,7 @@ public class CreativeModTabs {
 
                         output.accept(ModItems.MRE.get());
                         output.accept(ModItems.Empty_MRE_Can.get());
+                        output.accept(ModItems.nyamnyambricks.get());
 
                         output.accept(ModItems.Void_Fuel.get());
                         output.accept(ModBlocks.Void_Fuel_Block.get());

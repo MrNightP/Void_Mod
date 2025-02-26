@@ -23,6 +23,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.Empty_MRE_Can);
         simpleItem(ModItems.MetalDetector);
         simpleItem(ModItems.Void_Fuel);
+        simpleItem(ModItems.EndGem);
+        simpleItem(ModItems.RawEndGem);
+        simpleItem(ModItems.DragonSteelAlloy);
+        simpleItem(ModItems.DragonScale);
+        simpleItem(ModItems.MoonShineAlloy);
+        simpleItem(ModItems.nyamnyambricks);
 
         simpleItem(ModItems.Dragon_Armor_Helmet);
         simpleItem(ModItems.Dragon_Armor_Chestplate);

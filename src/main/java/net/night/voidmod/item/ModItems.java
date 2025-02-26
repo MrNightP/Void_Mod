@@ -5,7 +5,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.night.voidmod.block.ModBlocks;
 import net.night.voidmod.item.custom.DragonArmorItem;
 import net.night.voidmod.item.custom.FuelItem;
 import net.night.voidmod.item.custom.MetalDetectorItem;
@@ -18,12 +17,24 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Raw_VoidShard = ITEMS.register("raw_voidshard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EndGem = ITEMS.register("end_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RawEndGem = ITEMS.register("raw_end_gem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DragonSteelAlloy = ITEMS.register("dragon_steel_alloy",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MoonShineAlloy = ITEMS.register("moonshine_alloy",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DragonScale = ITEMS.register("dragon_scale",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MetalDetector = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(256)));
 
     public static final RegistryObject<Item> MRE = ITEMS.register("mre",
             () -> new CannedFood(new Item.Properties().food(ModFoods.MRE)));
+    public static final RegistryObject<Item> nyamnyambricks = ITEMS.register("nyamnyambricks",
+            () -> new Item(new Item.Properties().food(ModFoods.nyamnyambricks)));
 
     public static final RegistryObject<Item> Empty_MRE_Can = ITEMS.register("empty_mre_can",
             () -> new Item(new Item.Properties()));
@@ -55,9 +66,7 @@ public class ModItems {
             () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> Dragon_Armor_Boots = ITEMS.register("dragon_armor_boots",
             () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.BOOTS, new Item.Properties()));
-
-
-
+    
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

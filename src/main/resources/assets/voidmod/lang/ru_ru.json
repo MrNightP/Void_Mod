@@ -1,10 +1,16 @@
 {
   "item.voidmod.voidshard": "Осколок пустоты",
   "item.voidmod.raw_voidshard": "Необработанный осколок пустоты",
+  "item.voidmod.end_gem": "Самоцвет края",
+  "item.voidmod.raw_end_gem": "Необработанный самоцвет края",
+  "item.voidmod.dragon_steel_alloy": "Сплав Драконьей Стали",
+  "item.voidmod.moonshine_alloy": "Сплав Лунного сияния",
+  "item.voidmod.dragon_scale": "Чешуя Дракона",
 
   "block.voidmod.void_shards_block": "Блок из осколков пустоты",
   "block.voidmod.raw_void_shards_block": "Блок необработанных пустотных осколков",
   "block.voidmod.void_shard_ore_stone": "Руда пустотных осколков",
+  "block.voidmod.end_gem_ore_end_stone": "Руда самоцвета края",
 
   "message.found": "Найдено",
   "message.at": "на",

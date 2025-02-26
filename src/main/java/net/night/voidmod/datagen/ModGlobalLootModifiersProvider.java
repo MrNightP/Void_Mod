@@ -16,9 +16,9 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
 
     @Override
     protected void start() {
-        add("void_shard_from_ender_dragon", new AddItemModifier(
+        add("dragon_scale_from_ender_dragon", new AddItemModifier(
                 new LootItemCondition[] {
                         // Поменять шарды на чешую дракона
-                        new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build() }, ModItems.VoidShard.get(),4,16));
+                        new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build() }, ModItems.DragonScale.get(),4,16));
     }
 }

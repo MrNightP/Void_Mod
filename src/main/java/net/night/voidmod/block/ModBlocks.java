@@ -32,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> VoidShardOreStone = registerBlock("void_shard_ore_stone",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
             .strength(2.0F, 5.0F).requiresCorrectToolForDrops(), UniformInt.of(5, 10)));
+    public static final RegistryObject<Block> EndGemOre = registerBlock("end_gem_ore_end_stone",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2.0F, 5.0F).requiresCorrectToolForDrops(), UniformInt.of(5, 10)));
 
     public static final RegistryObject<Block> Sound_Test_Block = registerBlock("sound_test_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.STONE)));

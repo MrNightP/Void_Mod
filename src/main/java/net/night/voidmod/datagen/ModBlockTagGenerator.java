@@ -27,7 +27,8 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                 .add(ModBlocks.VoidShardOreStone.get(),
                         ModBlocks.VoidShardsBlock.get(),
                         ModBlocks.RawVoidShardsBlock.get(),
-                        ModBlocks.Void_Fuel_Block.get()
+                        ModBlocks.Void_Fuel_Block.get(),
+                        ModBlocks.EndGemOre.get()
 
                 );
 
@@ -35,7 +36,8 @@ public class ModBlockTagGenerator  extends BlockTagsProvider {
                 .add(ModBlocks.VoidShardOreStone.get(),
                         ModBlocks.VoidShardsBlock.get(),
                         ModBlocks.RawVoidShardsBlock.get(),
-                        ModBlocks.Sound_Test_Block.get()
+                        ModBlocks.Sound_Test_Block.get(),
+                        ModBlocks.EndGemOre.get()
                         );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)

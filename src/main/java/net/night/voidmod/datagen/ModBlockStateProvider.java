@@ -18,6 +18,8 @@ public class ModBlockStateProvider  extends BlockStateProvider {
         blockWithItem(ModBlocks.VoidShardOreStone);
         blockWithItem(ModBlocks.RawVoidShardsBlock);
 
+        blockWithItem(ModBlocks.EndGemOre);
+
         //blockWithItem(ModBlocks.VoidShardOreStone);
         //blockWithItem(ModBlocks.VoidShardOreNetherrack);
        //blockWithItem(ModBlocks.VoidShardOreEndStone);

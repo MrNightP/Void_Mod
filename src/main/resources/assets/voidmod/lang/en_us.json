@@ -1,10 +1,17 @@
 {
   "item.voidmod.voidshard": "Void shard",
   "item.voidmod.raw_voidshard": "Raw void shard",
+  "item.voidmod.end_gem": "End Gemstone",
+  "item.voidmod.raw_end_gem": "Raw End Gemstone",
+  "item.voidmod.dragon_steel_alloy": "Dragon Steel Alloy",
+  "item.voidmod.moonshine_alloy": "Moonshine Alloy",
+  "item.voidmod.dragon_scale": "Dragon Scale",
 
   "block.voidmod.void_shards_block": "Block of Void shards",
   "block.voidmod.raw_void_shards_block": "Block of Raw Void shards",
   "block.voidmod.void_shard_ore_stone": "Void Shard Ore",
+  "block.voidmod.end_gem_ore_end_stone": "End Gemstone Ore",
+
 
   "item.voidmod.metal_detector": "Metal Detector",
 
@@ -21,6 +28,7 @@
 
   "block.voidmod.sound_test_block": "Sound Test",
 
+  "item.voidmod.nyamnyambricks": "Nyam Nyam Bricks",
   "item.voidmod.mre": "MRE",
   "item.voidmod.empty_mre_can": "Empty MRE can",
 
@@ -42,7 +50,7 @@
   "item.voidmod.dragon_armor_leggings": "Dragon Armor Leggings",
   "item.voidmod.dragon_armor_boots": "Dragon Armor Boots",
 
-  "key.category.voidmod.voidmod": "Void Mod Keys",
+  "category.voidmod.keys": "Void Mod Keys",
   "key.category.armor_effect": "Dragon Boost",
   "key.category.armor_dash": "Dragon Dash",
 

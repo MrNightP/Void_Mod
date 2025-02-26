@@ -15,6 +15,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.night.voidmod.VoidMod;
+import net.night.voidmod.config.VoidModConfig;
 import net.night.voidmod.item.ModItems;
 import net.night.voidmod.network.DashPacket;
 import net.night.voidmod.util.KeyBinding;
@@ -61,7 +62,7 @@ public class ArmorDash {
             }
 
             // Проверяем, была ли нажата наша клавиша
-            while (KeyBinding.ARMOR_DASH.consumeClick()) {
+            while (KeyBinding.KEY_ARMOR_DASH.consumeClick()) {
                 if (isWearingFullArmorSet(player)) {
                     if (currentTime - lastUsedTime >= COOLDOWN) {
                         // Отправляем пакет на сервер
@@ -136,7 +137,7 @@ public class ArmorDash {
     public static class ClientModBusEvents {
         @SubscribeEvent
         public static void onKeyRegister(RegisterKeyMappingsEvent event) {
-            event.register(KeyBinding.ARMOR_DASH);
+            event.register(KeyBinding.KEY_ARMOR_DASH);
         }
     }
 }

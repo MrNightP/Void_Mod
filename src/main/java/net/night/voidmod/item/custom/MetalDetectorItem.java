@@ -107,7 +107,8 @@ public class MetalDetectorItem extends Item {
                 || state.is(Blocks.DIAMOND_ORE)
                 || state.is(Blocks.DEEPSLATE_DIAMOND_ORE)
                 || state.is(Blocks.DEEPSLATE_IRON_ORE)
-                || state.is(ModBlocks.VoidShardOreStone.get());
+                || state.is(ModBlocks.VoidShardOreStone.get())
+                || state.is(ModBlocks.EndGemOre.get());
     }
 
 }

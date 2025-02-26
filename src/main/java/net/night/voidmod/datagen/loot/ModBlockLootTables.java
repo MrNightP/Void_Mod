@@ -28,6 +28,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.RawVoidShardsBlock.get());
         this.dropSelf(ModBlocks.Void_Fuel_Block.get());
         this.dropSelf(ModBlocks.Sound_Test_Block.get());
+        this.dropSelf(ModBlocks.EndGemOre.get());
 
         this.add(ModBlocks.VoidShardOreStone.get(),
                 block -> createVoidShardOreLikeDrops(ModBlocks.VoidShardOreStone.get(), ModItems.Raw_VoidShard.get()));
