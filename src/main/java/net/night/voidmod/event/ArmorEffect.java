@@ -18,9 +18,9 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.night.voidmod.VoidMod;
+import net.night.voidmod.client.KeybindHandler;
 import net.night.voidmod.item.ModItems;
 import net.night.voidmod.network.EffectPacket;
-import net.night.voidmod.util.KeyBinding;
 import org.joml.Vector3f;
 
 @Mod.EventBusSubscriber(modid = VoidMod.MOD_ID, value = Dist.CLIENT)
@@ -78,7 +78,7 @@ public class ArmorEffect {
         }
 
         // Активация эффекта
-        if (KeyBinding.KEY_ARMOR_EFFECT.consumeClick()) {
+        if (KeybindHandler.KEY_ARMOR_EFFECT.consumeClick()) {
             if (isWearingFullArmorSet(player) && (currentTime - lastUsedTime >= COOLDOWN)) {
                 EffectPacket.CHANNEL.sendToServer(new EffectPacket());
                 lastUsedTime = currentTime;
@@ -131,7 +131,7 @@ public class ArmorEffect {
     public static class ClientModBusEvents {
         @SubscribeEvent
         public static void onKeyRegister(RegisterKeyMappingsEvent event) {
-            event.register(KeyBinding.KEY_ARMOR_EFFECT);
+            event.register(KeybindHandler.KEY_ARMOR_EFFECT);
         }
     }
 }

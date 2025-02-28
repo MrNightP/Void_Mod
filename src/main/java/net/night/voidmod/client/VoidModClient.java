@@ -4,11 +4,11 @@ import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.night.voidmod.VoidMod;
 import net.night.voidmod.client.renderer.BladeEntityRenderer;
-import net.night.voidmod.entities.VoidModEntities;
+import net.night.voidmod.entity.VoidModEntities;
 
 @Mod.EventBusSubscriber(modid = VoidMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class VoidModClient {

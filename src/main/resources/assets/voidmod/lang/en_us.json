@@ -50,9 +50,10 @@
   "item.voidmod.dragon_armor_leggings": "Dragon Armor Leggings",
   "item.voidmod.dragon_armor_boots": "Dragon Armor Boots",
 
-  "category.voidmod.keys": "Void Mod Keys",
+  "key.category.voidmod": "Void Mod",
   "key.category.armor_effect": "Dragon Boost",
   "key.category.armor_dash": "Dragon Dash",
+  "key.voidmod.chain_blade": "Activate Chain Blade",
 
   "creativetab.voidmod.void_tab": "Void Mod"
 }

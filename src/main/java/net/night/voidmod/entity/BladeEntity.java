@@ -7,9 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.network.NetworkHooks;
-import net.night.voidmod.entities.VoidModEntities;
 
 public class BladeEntity extends Entity {
     private final Player owner;
@@ -40,13 +38,10 @@ public class BladeEntity extends Entity {
         }
 
         if (returning) {
-            Vec3 direction = owner.position().subtract(this.position()).normalize().scale(0.7);
-            this.setDeltaMovement(direction);
+            this.setDeltaMovement(owner.position().subtract(this.position()).normalize().scale(0.7));
             if (this.position().distanceTo(owner.position()) < 1.5) {
                 this.discard();
             }
-        } else {
-            this.setDeltaMovement(this.getDeltaMovement());
         }
     }
 

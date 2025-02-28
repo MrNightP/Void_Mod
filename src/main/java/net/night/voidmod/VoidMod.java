@@ -12,11 +12,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.night.voidmod.block.ModBlocks;
+import net.night.voidmod.entity.VoidModEntities;
 import net.night.voidmod.item.CreativeModTabs;
 import net.night.voidmod.item.ModItems;
 import net.night.voidmod.loot.ModLootModifiers;
 import net.night.voidmod.network.DashPacket;
 import net.night.voidmod.network.EffectPacket;
+import net.night.voidmod.network.VoidModNetwork;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -26,18 +28,18 @@ public class VoidMod {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public VoidMod() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        VoidModEntities.ENTITY_TYPES.register(modEventBus);
         CreativeModTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::doClientStuff);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
-        modEventBus.addListener(this::commonSetup);
-        modEventBus.addListener(this::doClientStuff);
+        VoidModEntities.register(modEventBus);
+        VoidModNetwork.register();
 
         EffectPacket.register();
         DashPacket.register();
