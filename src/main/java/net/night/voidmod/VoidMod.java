@@ -31,6 +31,7 @@ public class VoidMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         VoidModEntities.ENTITY_TYPES.register(modEventBus);
+        VoidModEntities.register(modEventBus);
         CreativeModTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);

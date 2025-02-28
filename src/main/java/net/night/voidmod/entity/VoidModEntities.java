@@ -2,10 +2,10 @@ package net.night.voidmod.entity;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.night.voidmod.VoidMod;
 
 public class VoidModEntities {
