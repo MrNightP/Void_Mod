@@ -18,7 +18,6 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.night.voidmod.VoidMod;
-import net.night.voidmod.config.VoidModConfig;
 import net.night.voidmod.item.ModItems;
 import net.night.voidmod.network.EffectPacket;
 import net.night.voidmod.util.KeyBinding;

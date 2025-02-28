@@ -25,4 +25,21 @@ public class KeyBinding {
             GLFW.GLFW_KEY_H,
             "category.voidmod.keys"
     );
+    public static final KeyMapping BLADE_SHOOT_KEY = new KeyMapping(
+            "key.voidmod.armor_effect",
+            KeyConflictContext.IN_GAME,
+            KeyModifier.NONE,
+            InputConstants.Type.KEYSYM,
+            GLFW.GLFW_KEY_Y,
+            "category.voidmod.keys"
+    );
+
+    public static final KeyMapping BLADE_MODE_KEY = new KeyMapping(
+            "key.voidmod.blade_mode",
+            KeyConflictContext.IN_GAME,
+            KeyModifier.SHIFT,
+            InputConstants.Type.KEYSYM,
+            GLFW.GLFW_KEY_Y,
+            "category.voidmod.keys"
+    );
 }

@@ -16,5 +16,7 @@ public class ClientSetup {
         // Регистрация клавиш
         event.register(KeyBinding.KEY_ARMOR_DASH);
         event.register(KeyBinding.KEY_ARMOR_EFFECT);
+        event.register(KeyBinding.BLADE_SHOOT_KEY);
+        event.register(KeyBinding.BLADE_MODE_KEY);
     }
 }

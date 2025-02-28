@@ -26,6 +26,7 @@ public class VoidMod {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public VoidMod() {
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         CreativeModTabs.register(modEventBus);
@@ -35,6 +36,9 @@ public class VoidMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
+        modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::doClientStuff);
+
         EffectPacket.register();
         DashPacket.register();
 
@@ -42,6 +46,13 @@ public class VoidMod {
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+    }
+
+    private void doClientStuff(final FMLClientSetupEvent event) {
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
